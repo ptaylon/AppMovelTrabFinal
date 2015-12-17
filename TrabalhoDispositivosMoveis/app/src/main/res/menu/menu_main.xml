@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/cadastrar_livro" android:title="@string/cadastrar_livro"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/listar_livros" android:title="@string/listar_livros"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/procurar_livro" android:title="@string/procurar_livro"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/fechar_app" android:title="@string/fechar_app"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
